@@ -1,0 +1,5 @@
+create database studentm;
+use studentm;
+create table students (Citizenship_No int primary key,name varchar(20),email varchar(200),gender varchar(200),contact varchar(200),Departure_Date varchar(200),address varchar(20));
+SELECT * FROM students;
+drop table students;
